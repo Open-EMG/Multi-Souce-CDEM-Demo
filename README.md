@@ -2,8 +2,11 @@
 A Demo:   A Robust Engineering Framework of Cross-subject Gestrue Classification for Real-time Implementation based on High-density sEMG
 
 ## Brief Introduction
-We release a demo of our work. The work focuses on gesture classification based on high-density sEMG(HD-sEMG) in cross-subject and real-time scenario. Cross-subject means that we apply transfer learning(method: CDEM -- citing https://github.com/yuntaodu/CDEM -- Du Y, Chen Y, Cui F, et al. Cross-domain error minimization for unsupervised domain adaptation[C]//Database Systems for Advanced Applications: 26th International Conference, DASFAA 2021, Taipei, Taiwan, April 11–14, 2021, Proceedings, Part II 26. Springer International Publishing, 2021: 429-448.) to calibrate model on new users.  Real-time means that we simulate getting data continuosly from EMG signal collecting device.
+We release a demo of our work. The work focuses on gesture classification based on high-density sEMG(HD-sEMG) in cross-subject and real-time scenario. Cross-subject means that we apply transfer learning(method: CDEM) to calibrate model on new users.  Real-time means that we simulate getting data continuosly from EMG signal collecting device.
 See details in article: A Robust Engineering Framework of Cross-subject Gesture Classification for Real-time Implementation based on High-density sEMG.
+
+Source code of CDEM:        https://github.com/yuntaodu/CDEM
+Paper of CDEM:        Du Y, Chen Y, Cui F, et al. Cross-domain error minimization for unsupervised domain adaptation[C]//Database Systems for Advanced Applications: 26th International Conference, DASFAA 2021, Taipei, Taiwan, April 11–14, 2021, Proceedings, Part II 26. Springer International Publishing, 2021: 429-448.
 
 ## Files Description
 ### main.mlapp
