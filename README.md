@@ -25,16 +25,21 @@ Output: See details in 'model' part.
 #### Prediction
 In this part, we load data stream and model (trained in the calibration part) to stimulate real-time scenario and predict gesture labels. We load label stream so that we can show the true label and compare our predict label with the true label. 
 
-Input:  data stream and label stream (see details in 'test_data' part).
+Input:  
 
-        model (trained in the calibration part)
+data stream and label stream (see details in 'test_data' part).
+
+model (trained in the calibration part)
         
-Output:   Prediction Label Stream, true label stream, EMG signal (shown on GUI, update per 0.1 second)
+Output:   
 
-          p.s. Raw EMG signal includes 256 channels, but showing all of them may spend too many computing resources. We choose 8 channels (2 channels(the first channel and the last channel) per electrode) instead.
+Prediction Label Stream, true label stream, EMG signal (shown on GUI, update per 0.1 second)
+
+p.s. Raw EMG signal includes 256 channels, but showing all of them may spend too many computing resources. We choose 8 channels (2 channels(the first channel and the last channel) per electrode) instead.
 
 ### calibration_data
 The data should contain four parts.
+
   Xt_motion:    gesture samples in target domain. ( gesture sample number * feature dim number)
   Xt_rest:      rest samples in target domain. ( rest sample number * feature dim number )
   Yt_motion:    gesture labels in target domain. ( 1 * gesture sample number )
