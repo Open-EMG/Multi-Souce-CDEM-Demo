@@ -1,0 +1,9 @@
+main.mlapp filter=lfs diff=lfs merge=lfs -text
+model filter=lfs diff=lfs merge=lfs -text
+picture filter=lfs diff=lfs merge=lfs -text
+test_data filter=lfs diff=lfs merge=lfs -text
+toolbox filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+calibration_data filter=lfs diff=lfs merge=lfs -text
+train_feature filter=lfs diff=lfs merge=lfs -text
+video filter=lfs diff=lfs merge=lfs -text
